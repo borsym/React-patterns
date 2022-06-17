@@ -1,10 +1,11 @@
 import './App.css';
-import { ForOnboard } from './ControllVsUncontrolledComp/ForOnboard';
+import { FoRhOokMain } from './CustomHooks/FoRhOokMain';
+import { ForApp } from './HOC/ForApp';
 
 function App() {
   return (
     <>
-      <ForOnboard />
+      <FoRhOokMain />
     </>
   );
 }
